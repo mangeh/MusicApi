@@ -10,6 +10,11 @@ import java.util.List;
 @Component
 public class FormattedResponse {
 
+    public FormattedResponse() {
+    }
+
+
+    private String id;
     private String artistName;
 
     private String bio;
@@ -37,5 +42,13 @@ public class FormattedResponse {
 
     public void setAlbumList(List<Album> albumList) {
         this.albumList = albumList;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
