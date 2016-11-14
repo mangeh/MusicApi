@@ -7,7 +7,6 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
@@ -18,7 +17,6 @@ import java.util.concurrent.Future;
  * Created by Magnus on 2016-11-12.
  */
 @Service
-@Component
 public class DataFetcher {
 
     Logger logger = Logger.getLogger(DataFetcher.class);
@@ -34,7 +32,7 @@ public class DataFetcher {
     public Future<Object> fetchDataForUrl(String url, Class datamodel) {
         ResponseEntity<Object> response = null;
         HttpHeaders httpHeaders = new HttpHeaders();
-        httpHeaders.add<("User-agent", "MusicApi/1.1.0-SNAPSHOT ( magnus@hernegren.com )");
+        httpHeaders.add("User-Agent", "MusicApi/1.1.0-SNAPSHOT ( magnus@hernegren.com )");
         try {
             //TODO set header user agent
             response =

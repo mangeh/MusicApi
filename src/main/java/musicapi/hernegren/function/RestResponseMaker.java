@@ -1,11 +1,11 @@
 package musicapi.hernegren.function;
 
-import musicapi.hernegren.model.FormattedResponse;
+import musicapi.hernegren.model.SingleArtistResponse;
 
 /**
  * Created by Magnus on 2016-11-12.
  */
 public interface RestResponseMaker  {
-    FormattedResponse collectArtistInfo(String mbid);
+    SingleArtistResponse collectArtistInfo(String mbid);
 
 }

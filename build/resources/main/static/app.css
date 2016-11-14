@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+body {
+    background-image: url(images/note2.png);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-size: cover;
+}
+
+img.albumart {
+    max-width: 100%;
+    horizontal-align:center;
+    min-height:260px;
+    max-height:260px;
+    display:block;
+    margin:auto;
+}
+
+h1 {
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+
+.bio {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.searchresults{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.notavailable {
+    width: 250px;
+    height: 260px;
+}
+
+
+a {
+    color:#29afa2;
+}
+
+a:hover{
+    color:#2fc7b9;
+}
+
+
+nav .input-field input {
+    height:64px;
+    font-size: 1.5rem;
+    border: none;
+    padding-left: 2rem; }
+
+h3 {
+    min-height:70px;
+    font-size:1.6vw;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:bottom;
+    horizontal-align:bottom;
+    max-width:100%;
+}
+
+@media only screen and (max-width: 992px) {
+    img.albumart {
+        max-height:300px;
+        max-width: 100%;
+        display:block;
+        margin:auto;
+    }
+    h3 {
+        min-height:70px;
+        font-size:3vw;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+        vertical-align:bottom;
+        horizontal-align:bottom;
+        max-width:100%;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    img.albumart {
+        max-width: 100%;
+        display:block;
+        margin:auto;
+    }
+
+}
+

@@ -14,7 +14,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-context-support:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.3" level="project" />
     <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1" level="project" />
-    <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring4:2.1.4.RELEASE" level="project" />
