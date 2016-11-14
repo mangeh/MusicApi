@@ -44,11 +44,12 @@ public class RestResponseMakerImpl implements RestResponseMaker {
     }
 
     @Override
-    @Cacheable(cacheNames = "artistResponses",unless="#result.id == null")
+    @Cacheable(cacheNames = "artistResponses", unless = "#result == null || #result.id == null")
     public SingleArtistResponse collectArtistInfo(String mbid) {
         SingleArtistResponse response = new SingleArtistResponse();
 
-        MbzResponse mbz = (MbzResponse) asyncUtilites.getObjFromUrl("http://musicbrainz.org/ws/2/artist/" + mbid + "?&fmt=json&inc=url-rels+release-groups", MbzResponse.class);
+        MbzResponse mbz = (MbzResponse) asyncUtilites.getObjFromUrl("http://80.216.142.71:5000/ws/2/artist/" + mbid + "?&fmt=json&inc=url-rels+release-groups", MbzResponse.class);
+
         try {
             response.setId(mbz.getId());
             response.setArtistName(mbz.getName());
@@ -69,7 +70,7 @@ public class RestResponseMakerImpl implements RestResponseMaker {
             if (relation.getType().equals("wikipedia")) {
                 Future<Object> futureResponse = dataFetcher.fetchDataForUrl(apiUtilities.getWikiUrl(relation.getUrl().getResource()), HashMap.class);
                 asyncUtilites.waitUntilDone(futureResponse);
-                HashMap<String,String> jsonObject = (HashMap<String,String>)asyncUtilites.futureToObject(futureResponse);
+                HashMap<String, String> jsonObject = (HashMap<String, String>) asyncUtilites.futureToObject(futureResponse);
                 biography = apiUtilities.findJsonValue(jsonObject, "extract");
             }
         }

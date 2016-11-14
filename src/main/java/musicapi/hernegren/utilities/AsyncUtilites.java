@@ -30,13 +30,14 @@ public class AsyncUtilites {
     }
 
     public Object getObjFromUrl(String url, Class model) {
+        logger.info("Getting response for url " +url);
         Future<Object> futureObj = dataFetcher.fetchDataForUrl(url, model);
         Object returnObject = null;
         if (futureObj != null) {
             waitUntilDone(futureObj);
             returnObject = futureToObject(futureObj);
         } else {
-            logger.warn("No response retreived for " + url);
+            logger.info("No response retreived for " + url);
         }
         return returnObject;
     }

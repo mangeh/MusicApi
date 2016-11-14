@@ -32,9 +32,8 @@ public class DataFetcher {
     public Future<Object> fetchDataForUrl(String url, Class datamodel) {
         ResponseEntity<Object> response = null;
         HttpHeaders httpHeaders = new HttpHeaders();
-        httpHeaders.add("User-Agent", "MusicApi/1.1.0-SNAPSHOT ( magnus@hernegren.com )");
+        httpHeaders.add("User-agent", "MusicApi/1.1.0-SNAPSHOT ( magnus@hernegren.com )");
         try {
-            //TODO set header user agent
             response =
                     restTemplate.getForEntity(url, datamodel,httpHeaders);
         } catch (HttpClientErrorException http) {
