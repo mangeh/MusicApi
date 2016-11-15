@@ -14,9 +14,7 @@ body {
 
 img.albumart {
     max-width: 100%;
-    horizontal-align:center;
-    min-height:260px;
-    max-height:260px;
+    max-height:10vw;
     display:block;
     margin:auto;
 }
@@ -46,6 +44,9 @@ h1 {
 .notavailable {
     width: 250px;
     height: 260px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
@@ -78,9 +79,7 @@ h3 {
 @media only screen and (max-width: 992px) {
     img.albumart {
         max-height:300px;
-        max-width: 100%;
-        display:block;
-        margin:auto;
+
     }
     h3 {
         min-height:70px;
@@ -96,9 +95,7 @@ h3 {
 
 @media only screen and (max-width: 1800px) {
     img.albumart {
-        max-width: 100%;
-        display:block;
-        margin:auto;
+        max-height:250px;
     }
 
 }

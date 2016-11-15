@@ -2,55 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e9e59e-3547-454c-961e-9bccc8438916" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/config/MagnusMusicApiTests-soapui-project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/config/ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/config/ehcache.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/images/note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/images/note2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/jquery/jquery-1.11.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/css/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/material-design-icons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/material-design-icons/Material-Design-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/material-design-icons/Material-Design-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/material-design-icons/Material-Design-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/material-design-icons/Material-Design-Icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/font/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/js/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/vendor/materialize/js/materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/templates/artist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/templates/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/templates/search.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/MusicApi-1.0-SNAPSHOT.tar" afterPath="$PROJECT_DIR$/build/distributions/MusicApi-1.0-SNAPSHOT.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/MusicApi-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/build/distributions/MusicApi-1.0-SNAPSHOT.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/MusicApi-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/MusicApi-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/MusicApi-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/build/libs/MusicApi-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/data/DataFetcher.java" afterPath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/data/DataFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/musicapi.hernegren.utilities.ApiUtilitiesTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/musicapi.hernegren.utilities.ApiUtilitiesTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/musicapi.hernegren.utilities.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/musicapi.hernegren.utilities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-musicapi.hernegren.utilities.ApiUtilitiesTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-musicapi.hernegren.utilities.ApiUtilitiesTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java" afterPath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java" afterPath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMakerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMakerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMakerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMakerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/AsyncUtilites.java" afterPath="$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/AsyncUtilites.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/MagnusMusicApiTests-soapui-project.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/MagnusMusicApiTests-soapui-project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/app.css" afterPath="$PROJECT_DIR$/src/main/resources/static/app.css" />
     </list>
     <ignored path="MusicApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,6 +80,10 @@
                 <option name="myItemId" value="Tasks" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
               </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="verification" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
             </PATH>
             <PATH>
               <PATH_ELEMENT>
@@ -122,6 +101,20 @@
               <PATH_ELEMENT>
                 <option name="myItemId" value="other" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="MusicApi" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
               </PATH_ELEMENT>
             </PATH>
             <PATH>
@@ -184,31 +177,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataFetcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/data/DataFetcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestResponseMaker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RestResponseMakerImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMakerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="1396">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,11 +189,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchResponseMakerImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApiUtilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/ApiUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1122">
+              <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResponseMakerImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMakerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
+            <state relative-caret-position="135">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleArtistResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/SingleArtistResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,28 +246,18 @@
       <file leaf-file-name="MusicJsonController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="85">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MusicController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncUtilites.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/AsyncUtilites.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+            <state relative-caret-position="19">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -669,16 +664,12 @@
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/FormattedResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/coverart/CoverArtResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/artistPage.html" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/SearchResponse.java" />
         <option value="$PROJECT_DIR$/src/test/java/musicapi/hernegren/utilities/ApiUtilitiesTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/Album.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/app.js" />
-        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/app.css" />
-        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/ApiUtilities.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/artist.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
@@ -688,8 +679,12 @@
         <option value="$PROJECT_DIR$/src/test/java/musicapi/hernegren/utilities/ApiUtilitiesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/data/DataFetcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/AsyncUtilites.java" />
-        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMakerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMakerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/app.css" />
+        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/ApiUtilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMakerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java" />
       </list>
     </option>
   </component>
@@ -1058,6 +1053,62 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1171,36 +1222,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MusicApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hernegren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1221,7 +1242,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="mbzs&#9;FILE&#9;file://C:/Users/Magnus/Documents/Treehouse/MusicApi/src/main/java/musicapi/hernegren/model/mbzsearch/MbzSearch.java&#10;gra&#9;FILE&#9;file://C:/Users/Magnus/Documents/Treehouse/MusicApi/build.gradle&#10;spring&#9;ACTION&#9;Spring.Create.Context.File&#10;application.p&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="artist&#9;FILE&#9;file://C:/Users/Magnus/Documents/Treehouse/MusicApi/src/main/java/musicapi/hernegren/model/SingleArtistResponse.java&#10;mbzs&#9;FILE&#9;file://C:/Users/Magnus/Documents/Treehouse/MusicApi/src/main/java/musicapi/hernegren/model/mbzsearch/MbzSearch.java&#10;gra&#9;FILE&#9;file://C:/Users/Magnus/Documents/Treehouse/MusicApi/build.gradle&#10;spring&#9;ACTION&#9;Spring.Create.Context.File&#10;application.p&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
@@ -1833,7 +1854,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478880235476</updated>
-      <workItem from="1478880239693" duration="111019000" />
+      <workItem from="1478880239693" duration="116604000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1478908258427</created>
@@ -1878,7 +1899,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111019000" />
+    <option name="totallyTimeSpent" value="116604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1955,7 +1976,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="133" />
+      <option name="time" value="136" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1964,14 +1985,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.7.RELEASE/473b4326371242e9e065ab01ca7c1698852832c/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/filter/HiddenHttpMethodFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.7.RELEASE/473b4326371242e9e065ab01ca7c1698852832c/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
@@ -2209,28 +2222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/SingleArtistResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2299,20 +2294,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/ApiUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/musicapi/hernegren/utilities/ApiUtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="109" selection-start-line="35" selection-start-column="109" selection-end-line="35" selection-end-column="109" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2357,14 +2344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.3.RELEASE/c8aac0843b6a02ed04cae2346a7ccc81e5ebfea8/spring-expression-4.3.3.RELEASE-sources.jar!/org/springframework/expression/spel/ast/PropertyOrFieldReference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -2373,31 +2352,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMakerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="135">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/model/SingleArtistResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/MagnusMusicApiTests-soapui-project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="1" column="27389" selection-start-line="1" selection-start-column="27389" selection-end-line="1" selection-end-column="27389" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/utilities/ApiUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/RestResponseMakerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="1396">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/function/SearchResponseMakerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicJsonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/musicapi/hernegren/controller/MusicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * Controller to get JSON response
  * Created by Magnus on 2016-11-11.
  */
 @RestController

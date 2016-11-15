@@ -47,7 +47,7 @@ public class RestResponseMakerImpl implements RestResponseMaker {
     @Cacheable(cacheNames = "artistResponses", unless = "#result == null || #result.id == null")
     public SingleArtistResponse collectArtistInfo(String mbid) {
         SingleArtistResponse response = new SingleArtistResponse();
-
+        //Get the response from the musicbrainz service
         MbzResponse mbz = (MbzResponse) asyncUtilites.getObjFromUrl("http://80.216.142.71:5000/ws/2/artist/" + mbid + "?&fmt=json&inc=url-rels+release-groups", MbzResponse.class);
 
         try {
@@ -62,7 +62,7 @@ public class RestResponseMakerImpl implements RestResponseMaker {
 
         return response;
     }
-
+    //Find the wikipedia url from relations
     private String getWikiText(ApiUtilities apiUtilities, SingleArtistResponse response, MbzResponse mbz) {
 
         String biography = null;
@@ -85,14 +85,19 @@ public class RestResponseMakerImpl implements RestResponseMaker {
             Album album = new Album();
             album.setId(alubm.getId());
             album.setTitle(alubm.getTitle());
+            //Collect all album cover requests in a map with future objects
             albumCoverMap.put(alubm.getId(), asyncUtilites.getFutureFromUrl("http://coverartarchive.org/release-group/" + alubm.getId(), CoverArtResponse.class));
             albumList.add(album);
         });
+
+        //Wait until all reguests are finished before continuing
         for (Map.Entry<String, Future<Object>> albumCoverEntry : albumCoverMap.entrySet()) {
             Future<Object> fObj = albumCoverEntry.getValue();
             asyncUtilites.waitUntilDone(fObj);
             albumUrlCoverMap.put(albumCoverEntry.getKey(), (CoverArtResponse) asyncUtilites.futureToObject(fObj));
         }
+
+        //Set the images for each album
         for (Album album : albumList) {
             CoverArtResponse car = albumUrlCoverMap.get(album.getId());
             if (car != null) {

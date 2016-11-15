@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Controller to get web page response
  * Created by Magnus on 2016-11-13.
  */
 @Controller

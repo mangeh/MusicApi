@@ -16,7 +16,7 @@ public class ApiUtilities {
 
     private String returnString;
 
-
+    //Regex to find the url
     public String getWikiUrl(String url) {
         Pattern wikiPattern = Pattern.compile("/wiki/(.*)");
         Matcher matcher = wikiPattern.matcher(url);
