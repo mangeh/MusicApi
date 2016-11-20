@@ -29,18 +29,21 @@ public class DataFetcher {
     }
 
     @Async
-    public Future<Object> fetchDataForUrl(String url, Class datamodel) {
-        ResponseEntity<Object> response = null;
+    public <T>Future<T> fetchDataForUrl(String url, Class modelClass) {
+        ResponseEntity<T> response = null;
         HttpHeaders httpHeaders = new HttpHeaders();
         httpHeaders.add("User-agent", "MusicApi/1.1.0-SNAPSHOT ( magnus@hernegren.com )");
-        try {
-            response =
-                    restTemplate.getForEntity(url, datamodel,httpHeaders);
-        } catch (HttpClientErrorException http) {
-            logger.warn("Faulty response: " +http);
-            return null;
-        }
-        return new AsyncResult<>(response.getBody());
+
+
+            try {
+                response =
+                        restTemplate.<T>getForEntity(url,modelClass,httpHeaders);
+            } catch (HttpClientErrorException http) {
+                logger.warn("Faulty response: " + http);
+                return null;
+            }
+            return new AsyncResult<>(response.getBody());
+
     }
 
 

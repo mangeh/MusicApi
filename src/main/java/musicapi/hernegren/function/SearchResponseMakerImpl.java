@@ -25,13 +25,12 @@ public class SearchResponseMakerImpl implements SearchResponseMaker {
     @Override
     public List<SearchResponse> getSearchResponse(String query) {
         List<SearchResponse> srList = new ArrayList<>();
-        String url = "http://80.216.142.71:8080/ws/2/artist/?query=artist:" + query + "&fmt=json";
-        MbzSearch mbzSearch = (MbzSearch) asyncUtilites.getObjFromUrl(url, MbzSearch.class);
+        String url = "http://musicbrainz.org/ws/2/artist/?query=artist:" + query + "&fmt=json";
+        MbzSearch mbzSearch = asyncUtilites.getObjFromUrl(url, MbzSearch.class);
         if (mbzSearch == null) {
             url = "http://musicbrainz.org/ws/2/artist/?query=artist:" + query + "&fmt=json";
-            mbzSearch = (MbzSearch) asyncUtilites.getObjFromUrl(url, MbzSearch.class);
+            mbzSearch = asyncUtilites.getObjFromUrl(url, MbzSearch.class);
         }
-
         for (Artist artist : mbzSearch.getArtists()) {
             SearchResponse sr = new SearchResponse();
             sr.setId(artist.getId());

@@ -19,8 +19,8 @@ public class AsyncUtilites {
     @Autowired
     DataFetcher dataFetcher;
 
-    public Future<Object> getFutureFromUrl(String url, Class model) {
-        Future<Object> futureObj = dataFetcher.fetchDataForUrl(url, model);
+    public <T>Future<T> getFutureFromUrl(String url, Class model) {
+        Future<T> futureObj = dataFetcher.fetchDataForUrl(url, model);
         if (futureObj != null) {
             return futureObj;
         } else {
@@ -29,10 +29,10 @@ public class AsyncUtilites {
         return null;
     }
 
-    public Object getObjFromUrl(String url, Class model) {
+    public <T>T  getObjFromUrl(String url, Class model) {
         logger.info("Getting response for url " +url);
-        Future<Object> futureObj = dataFetcher.fetchDataForUrl(url, model);
-        Object returnObject = null;
+        Future<T> futureObj = dataFetcher.fetchDataForUrl(url, model);
+        T returnObject = null;
         if (futureObj != null) {
             waitUntilDone(futureObj);
             returnObject = futureToObject(futureObj);
@@ -43,8 +43,8 @@ public class AsyncUtilites {
     }
 
 
-    public Object futureToObject(Future<Object> futureObj) {
-        Object returnObject = null;
+    public <T>T futureToObject(Future<T> futureObj) {
+        T returnObject = null;
         try {
             returnObject = futureObj.get();
         } catch (InterruptedException e) {
@@ -55,7 +55,7 @@ public class AsyncUtilites {
         return returnObject;
     }
 
-    public void waitUntilDone(Future<Object> futureObj) {
+    public <T>void waitUntilDone(Future<T> futureObj) {
 
         while (!futureObj.isDone()) {
             try {

@@ -1,12 +1,20 @@
 package musicapi.hernegren.utilities;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.jayway.jsonpath.Configuration;
+import com.jayway.jsonpath.JsonPath;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import static com.jayway.jsonpath.Filter.filter;
+import static javafx.scene.input.KeyCode.M;
+import static org.apache.coyote.http11.Constants.a;
 
 /**
  * Created by Magnus on 2016-11-11.
@@ -29,54 +37,12 @@ public class ApiUtilities {
 
 
     //Finds a specific key in a json map and returns its value
-    public String findJsonValue(HashMap<String,String> jsonObject, String tagToFind) {
-
-        for (Map.Entry<String,String> entry : jsonObject.entrySet()) {
-            String key = entry.getKey();
-            Object value = entry.getValue();
-            if (key.equals(tagToFind)) {
-                returnString = value.toString();
-            } else if (value instanceof HashMap) {
-                findJsonValue((HashMap<String,String>) value, tagToFind);
-            }
-            else if (value instanceof ArrayList) {
-                 findJsonValue((ArrayList) value, tagToFind);
-            }
-        }
-        return returnString;
+    public <T> String findFirstJsonValue(String jsonObject, String tagToFind) {
+        Object document = Configuration.defaultConfiguration().jsonProvider().parse(jsonObject);
+        List<String> ret = null;
+        ret = JsonPath.read(document,"$.."+tagToFind);
+        return ret.get(0);
     }
-
-//    iterates through lists in the map
-    private String findJsonValue(ArrayList jsonObject, String tagToFind) {
-        for (Object json : jsonObject) {
-            if (json instanceof HashMap) {
-               return findJsonValue((HashMap<String, String>) json, tagToFind);
-            }
-            if (json instanceof ArrayList) {
-                return findJsonValue((ArrayList) json, tagToFind);
-            }
-        }
-        return returnString;
-    }
-
-//    public String findJsonValueAllMatches(Map jsonObject, String tagToFind, ArrayList resultMap, Class model) {
-//        Iterator<?> keys = jsonObject.keySet().iterator();
-//
-//        while (keys.hasNext()) {
-//            String key = (String) keys.next();
-//            Object value = jsonObject.get(key);
-//            if (key.equals(tagToFind)) {
-//                resultMap.add(value.toString());
-//            }
-//
-//            if (value instanceof Map) {
-//                return findJsonValue((Map) value, tagToFind, textFound);
-//            }
-//
-//        }
-//        return null;
-//    }
-
 
 
 }

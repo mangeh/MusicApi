@@ -16,9 +16,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.Future;
 
 /**
@@ -48,13 +46,13 @@ public class RestResponseMakerImpl implements RestResponseMaker {
     public SingleArtistResponse collectArtistInfo(String mbid) {
         SingleArtistResponse response = new SingleArtistResponse();
         //Get the response from the musicbrainz service
-        MbzResponse mbz = (MbzResponse) asyncUtilites.getObjFromUrl("http://80.216.142.71:5000/ws/2/artist/" + mbid + "?&fmt=json&inc=url-rels+release-groups", MbzResponse.class);
+        MbzResponse mbz = (MbzResponse) asyncUtilites.getObjFromUrl("http://musicbrainz.org/ws/2/artist/" + mbid + "?&fmt=json&inc=url-rels+release-groups", MbzResponse.class);
 
         try {
             response.setId(mbz.getId());
             response.setArtistName(mbz.getName());
             response.setAlbumList(getAlbumList(mbz));
-            response.setBio(getWikiText(apiUtilities, response, mbz));
+            response.setBio(getWikiText(mbz));
         } catch (NullPointerException ne) {
             logger.warn("Something wrong with response objects " + ne);
             return null;
@@ -63,15 +61,15 @@ public class RestResponseMakerImpl implements RestResponseMaker {
         return response;
     }
     //Find the wikipedia url from relations
-    private String getWikiText(ApiUtilities apiUtilities, SingleArtistResponse response, MbzResponse mbz) {
+    private String getWikiText(MbzResponse mbz) {
 
         String biography = null;
         for (Relation relation : mbz.getRelations()) {
             if (relation.getType().equals("wikipedia")) {
-                Future<Object> futureResponse = dataFetcher.fetchDataForUrl(apiUtilities.getWikiUrl(relation.getUrl().getResource()), HashMap.class);
+                Future<String> futureResponse = dataFetcher.fetchDataForUrl(apiUtilities.getWikiUrl(relation.getUrl().getResource()),String.class);
                 asyncUtilites.waitUntilDone(futureResponse);
-                HashMap<String, String> jsonObject = (HashMap<String, String>) asyncUtilites.futureToObject(futureResponse);
-                biography = apiUtilities.findJsonValue(jsonObject, "extract");
+                String jsonObject = asyncUtilites.futureToObject(futureResponse);
+                biography = apiUtilities.findFirstJsonValue(jsonObject, "extract");
             }
         }
         return biography;
@@ -79,36 +77,16 @@ public class RestResponseMakerImpl implements RestResponseMaker {
 
     private List<Album> getAlbumList(MbzResponse mbz) {
         List<Album> albumList = new ArrayList<>();
-        Map<String, Future<Object>> albumCoverMap = new HashMap<>();
-        Map<String, CoverArtResponse> albumUrlCoverMap = new HashMap<>();
-        mbz.getReleaseGroups().forEach(alubm -> {
-            Album album = new Album();
-            album.setId(alubm.getId());
-            album.setTitle(alubm.getTitle());
-            //Collect all album cover requests in a map with future objects
-            albumCoverMap.put(alubm.getId(), asyncUtilites.getFutureFromUrl("http://coverartarchive.org/release-group/" + alubm.getId(), CoverArtResponse.class));
-            albumList.add(album);
-        });
-
-        //Wait until all reguests are finished before continuing
-        for (Map.Entry<String, Future<Object>> albumCoverEntry : albumCoverMap.entrySet()) {
-            Future<Object> fObj = albumCoverEntry.getValue();
-            asyncUtilites.waitUntilDone(fObj);
-            albumUrlCoverMap.put(albumCoverEntry.getKey(), (CoverArtResponse) asyncUtilites.futureToObject(fObj));
-        }
-
-        //Set the images for each album
-        for (Album album : albumList) {
-            CoverArtResponse car = albumUrlCoverMap.get(album.getId());
-            if (car != null) {
-                //Assuming here that if there is a albumCoverObject, it has at least 1 image, prone to errors if the api should not live up to that expectation.
-                album.setImageUrl(car.getImages().get(0).getImage());
-                String thumbnail = car.getImages().get(0).getThumbnails().getLarge();
-                album.setThumbnailUrl(thumbnail);
-
+        mbz.getReleaseGroups().parallelStream().forEach(album -> {
+            Album newalbum = new Album();
+            newalbum.setId(album.getId());
+            newalbum.setTitle(album.getTitle());
+            CoverArtResponse art = asyncUtilites.getObjFromUrl("http://coverartarchive.org/release-group/" + album.getId(), CoverArtResponse.class);
+            if (art != null) {
+                newalbum.setImageUrl(art.getImages().get(0).getImage());
             }
-        }
-
+            albumList.add(newalbum);
+        });
         return albumList;
     }
 
